@@ -3,6 +3,8 @@
 <%= render @product %>
 
 <div>
+<%= link_to "Add New category", new_category_path %>
+<br>
   <%= link_to "Edit this product", edit_product_path(@product) %> |
   <%= link_to "Back to products", products_path %>
 
